@@ -1,4 +1,6 @@
 name = input("Enter your name: ")
-print("Welcome " + name + /n " The Game: Adventure Time!")
+print("Welcome " + name +  " The Game: Adventure Time!")
+
+
 
 
