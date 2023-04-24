@@ -1,0 +1,4 @@
+name = input("Enter your name: ")
+print("Welcome " + name +  " The Game: Starbucks Adventure Time!")
+
+"Welcome", name ," to the Starbucks Adventure Game "
