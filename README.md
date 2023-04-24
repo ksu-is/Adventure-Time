@@ -8,3 +8,4 @@ Players will be given the option such as left or right, and based upon that choi
 
 # Sources and Other GitHub Repositories
 - https://github.com/KendallDoesCoding/Choose-Your-Own-Adventure-Game as a guide 
+- https://github.com/ksu-is/Choose-Your-Own-Adventure-/blob/main/Choose%20your%20own%20Adventure.py
