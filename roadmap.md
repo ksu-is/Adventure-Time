@@ -5,3 +5,14 @@
 - [x] Accepted "KSU-IS Organization" invitation for project 
     - [x] One group member had to be invited again as invitation had expired
 - [x] Created a Github respority for group
+- [x] Each team member was added to the repository 
+    - [x] Had to make sure both members were made admin
+- [x] Created a README.md file that includes project description, source codes, and github repositories
+- [x] Welcome the user to the interface
+- [ ] Created a blueprint for the user to choose different paths
+- [ ] Deciding if obstacles should be included in choices
+- [ ] Deciding what verbs should be chosen as possible action choices
+- [ ] Team members periodacally adding comments and commits
+    - [ ] Run the code after every couple of lines to ensure code runs in terminal
+- [ ] Brainstrom presentation ideas 
+- [ ] Submit final project by May 8th 
