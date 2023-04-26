@@ -8,7 +8,7 @@ time = 30
 while True:
     q1 = input ("On your way to campus, a tree fell. To try to get around the fall of the tree and potential traffic, \n you can go left or right? (pick one: left/right) ")
     if q1.lower() == "left":
-        q2 = input("After that almost trafffic jam, you park your car at the Central Deck and begin your walk to Starbucks. On that walk, you see a friend that you haven't \n seen in while. This causes you guys to catch up and this goes on for about 5 minutes. You look at the time and notice you need to head to Starbuck soon so you're not late for class. Do you ask your friend to walk with you or just leave them behind? (pick one: walk/leave)")
+        q2 = input("After that almost traffic jam, you park your car at the Central Deck and begin your walk to Starbucks. On that walk, you see a friend that you haven't \n seen in while. This causes you guys to catch up and this goes on for about 5 minutes. You look at the time and notice you need to head to Starbuck soon so you're not late for class. Do you ask your friend to walk with you or just leave them behind? (pick one: walk/leave)")
         if q2.lower() == "walk":
             q3 = ("You have just been given 5 more minutes for bringing your friend along. Now, you can talk to them along the way and even make plans to hang out later. WOAH, WOAH, your friend has now fallen, do you help them or leave them behind? (pick one: stay/leave)")
             if q3.lower() == "leave":
@@ -35,4 +35,20 @@ while True:
         else:
             print("Please enter a valid answer.")
     elif q1.lower() == "right":
-        q5 = input(" ")
+        q5 = input("After that almost traffic jam, you park your car at the Central Deck and begin your walk to Starbucks. On this walk you get stopped by a videographer asking you to be in their Youtube video. You can decide to be in the Youtube video or not. (pick one: yes/no) ")
+        if q5.lower()== "yes":
+            q6 = input("Because you chose to be in the video, you lost five minutes, but they offer you to stay longer for another scene. Do you stay or leave? (pick one: stay/leave)")
+            if q6.lower() == "stay":
+                time -=5
+                print("Because you chose to stay, you lost another three minutes, but you got two nice scenes in the video :) ")
+                break
+            elif q6 == "leave":
+                time +=2
+                print("Because you decided to leave you only lost 3 minutes of time instead of 5.")
+                break
+            else: 
+                print("Please enter a valid answer.")
+        elif q5.lower()== "no":
+            
+
+        
