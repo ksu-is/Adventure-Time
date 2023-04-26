@@ -18,21 +18,21 @@ while True:
             elif q3 == "walk": 
                 print("You are now walking to Starbucks by yourself so you listen to music to keep you company. Make sure to look at the time along your walk.")
                 break
-        else:
-           print("Please enter a valid answer.")
-    elif q2.lower() == "leave":
-        q4 = input("For leaving, you gained 10 minutes. You find a secret shortcut that can save you 7 mintues, do you take it? (pick one: yes/no) ")
-        if q4.lower() == "yes":
-            time +=17
-            print("Good option!, you have just saved 7 miuntes. You also gain 10 miunutes from earlier and get to Starbucks faster.")
-            break
-        elif q4.lower() == "no":
-            time +=10
-            print("You have gained 10 minutes for your travel.")
-            break
+            else:
+                print("Please enter a valid answer.")
+        elif q2.lower() == "leave":
+            q4 = input("For leaving, you gained 10 minutes. You find a secret shortcut that can save you 7 mintues, do you take it? (pick one: yes/no) ")
+            if q4.lower() == "yes":
+                time +=17
+                print("Good option!, you have just saved 7 miuntes. You also gain 10 miunutes from earlier and get to Starbucks faster.")
+                break
+            elif q4.lower() == "no":
+                time +=10
+                print("You have gained 10 minutes for your travel.")
+                break
+            else:
+                print("Please enter a valid answer.")
         else:
             print("Please enter a valid answer.")
-    else:
-        print("Please enter a valid answer.")
 
 
