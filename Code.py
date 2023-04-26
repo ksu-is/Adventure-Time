@@ -1,5 +1,5 @@
 from turtle import left
-
+from turtle import right
 
 name = input("Enter your name: ")
 
