@@ -20,7 +20,7 @@ while True:
                 break
         else:
            print("Please enter a valid answer.")
-    elif q2.lower() == "leave":
+      elif q2.lower() == "leave":
         q4 = input("For leaving, you gained 10 minutes. You find a secret shortcut that can save you 7 mintues, do you take it? (pick one: yes/no) ")
         if q4.lower() == "yes":
             time +=17
@@ -32,7 +32,6 @@ while True:
             break
         else:
             print("Please enter a valid answer.")
-    else:
+      else:
         print("Please enter a valid answer.")
-
-
+    elif :
