@@ -42,13 +42,29 @@ while True:
                 time -=5
                 print("Because you chose to stay, you lost another three minutes, but you got two nice scenes in the video :) ")
                 break
-            elif q6 == "leave":
+            elif q6.lower() == "leave":
                 time +=2
                 print("Because you decided to leave you only lost 3 minutes of time instead of 5.")
                 break
             else: 
                 print("Please enter a valid answer.")
         elif q5.lower()== "no":
-            
+            q7 = input("You chose not to be in the video and instead a friend rides by on a scooter and asks to take you to Starbucks. Do you take the ride or continue walk? (pick one: ride/walk)")
+            if q7.lower()== "ride":
+                time +=7 
+                print("Because you chose to ride, you saved 7 minutes and arrive at Starbucks early!")
+                break
+            elif q7.lower() == "walk":
+                time -=10
+                print("Because you decided to walk, you lost 10 more minutes and didn't make it to Starbucks. Now you're late for class :( )")
+                break
+            else:
+                print("Please enter a valid answer.")
+        else:
+            print("Please enter a valid answer.")
+    else:
+        print("Please enter a valid answer.")
+
+
 
         
