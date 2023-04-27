@@ -8,11 +8,11 @@ time = 45
 while True:
     q1 = input ("On your way to campus, a tree fell. To try to get around the fall of the tree and potential traffic, you can go left or right? (pick one: left/right) ")
     if q1.lower() == "left":
-        q2 = input("After that almost traffic jam, you park your car at the Central Deck and begin your walk to Starbucks. On that walk, you see a friend that you haven't seen in while.\nThis causes you guys to catch up and this goes on for about 5 minutes. You look at the time and notice you need to head to Starbuck soon so you're not late for class.\nDo you ask your friend to walk with you or just leave them behind? (pick one: walk/leave)")
-        if q2.lower() == "walk":
+        q2 = input("After that almost traffic jam, you park your car at the Central Deck and begin your walk to Starbucks. On that walk, you see a friend that you haven't seen in while.\nThis causes you guys to catch up and this goes on for about 5 minutes. You look at the time and notice you need to head to Starbuck soon so you're not late for class.\nDo you ask your friend to walk with you or just continue walking? (pick one: ask/continue)")
+        if q2.lower() == "ask":
             q3 = ("You have just been given 5 more minutes for bringing your friend along. Now, you can talk to them along the way and even make plans to hang out later.\nWOAH, WOAH, your friend has now fallen, do you help them or leave them behind? (pick one: stay/leave)")
             if q3.lower() == "leave":
-                time += 5
+                time +=5
                 print("You are now walking to Starbucks by yourself so you listen to music to keep you company. Make sure to look at the time along your walk. ")
                 break
             elif q3 == "walk": 
@@ -21,7 +21,7 @@ while True:
                 break
             else:
                 print("Please enter a valid answer.")
-        elif q2.lower() == "leave":
+        elif q2.lower() == "continue":
             q4 = input("For leaving, you find a secret shortcut that can save you 7 mintues, do you take it? (pick one: yes/no) ")
             if q4.lower() == "yes":
                 time +=7
