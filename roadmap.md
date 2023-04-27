@@ -9,9 +9,9 @@
     - [x] Had to make sure both members were made admin
 - [x] Created a README.md file that includes project description, source codes, and github repositories
 - [x] Welcome the user to the interface
-- [ ] Created a blueprint for the user to choose different paths
-- [ ] Deciding if obstacles should be included in choices
-- [ ] Deciding what verbs should be chosen as possible action choices
+- [x] Created a blueprint for the user to choose different paths
+- [x] Deciding if obstacles should be included in choices
+- [x] Deciding what verbs should be chosen as possible action choices
 - [ ] Team members periodacally adding comments and commits
     - [ ] Run the code after every couple of lines to ensure code runs in terminal
 - [ ] Brainstrom presentation ideas 
