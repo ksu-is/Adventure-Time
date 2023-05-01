@@ -15,5 +15,5 @@
 - [x] Team members periodacally adding comments and commits
     - [x] Run the code after every couple of lines to ensure code runs in terminal
 - [x] Brainstrom presentation ideas 
-- [ ] Present project on Teams 
+- [x] Present project on Teams 
 - [ ] Submit final project by May 8th 
