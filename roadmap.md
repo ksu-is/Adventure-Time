@@ -12,7 +12,8 @@
 - [x] Created a blueprint for the user to choose different paths
 - [x] Deciding if obstacles should be included in choices
 - [x] Deciding what verbs should be chosen as possible action choices
-- [ ] Team members periodacally adding comments and commits
-    - [ ] Run the code after every couple of lines to ensure code runs in terminal
-- [ ] Brainstrom presentation ideas 
+- [x] Team members periodacally adding comments and commits
+    - [x] Run the code after every couple of lines to ensure code runs in terminal
+- [x] Brainstrom presentation ideas 
+- [ ] Present project on Teams 
 - [ ] Submit final project by May 8th 
