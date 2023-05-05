@@ -16,4 +16,4 @@
     - [x] Run the code after every couple of lines to ensure code runs in terminal
 - [x] Brainstrom presentation ideas 
 - [x] Present project on Teams 
-- [ ] Submit final project by May 8th 
+- [x] Submit final project by May 8th 
